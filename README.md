@@ -29,7 +29,7 @@ You can tune parameters, watch populations evolve, and see how statistical and a
 ## Resources & Further Reading
 
 ### Educational Videos
-- [Veritasium: The Scientific Challenge of One Predator, One Prey](https://www.youtube.com/watch?v=E3xT_F3E8xw) - Excellent introduction to predator-prey dynamics
+- [Veritasium: This equation will change how you see the world (the logistic map)](https://www.youtube.com/watch?v=ovJcsL7vyrk) - This video explores the logistic map, a mathematical model related to population dynamics.
 - [3Blue1Brown: Differential Equations Overview](https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6) - Mathematical foundations
 
 ### Academic Resources
