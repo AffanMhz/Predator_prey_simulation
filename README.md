@@ -22,10 +22,30 @@ You can tune parameters, watch populations evolve, and see how statistical and a
 ## Files
 
 - `index.html` — main page and structure
-- `style.css` — simple neutral styling
+- `style.css` — modern styling with gradients and animations
 - `sim.js` — all simulation and math logic
 - `README.md` — this explanation
 
+## Resources & Further Reading
+
+### Educational Videos
+- [Veritasium: The Scientific Challenge of One Predator, One Prey](https://www.youtube.com/watch?v=E3xT_F3E8xw) - Excellent introduction to predator-prey dynamics
+- [3Blue1Brown: Differential Equations Overview](https://www.youtube.com/playlist?list=PLZHQObOWTQDNPOjrT6KVlfJuKtYTftqH6) - Mathematical foundations
+
+### Academic Resources
+- [Lotka-Volterra Equations - Wikipedia](https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations) - Comprehensive overview of the mathematical model
+- [Scholarpedia: Lotka-Volterra Model](http://www.scholarpedia.org/article/Lotka-Volterra_model) - Detailed academic treatment
+- [Phase Plane Analysis](https://tutorial.math.lamar.edu/Classes/DE/SystemsDE.aspx) - Understanding phase space dynamics
+
+### Interactive Simulations
+- [NetLogo Wolf Sheep Predation Model](https://ccl.northwestern.edu/netlogo/models/WolfSheepPredation) - Classic agent-based model
+- [PhET: Predator-Prey Simulation](https://phet.colorado.edu/) - Educational physics simulations
+
+### Books & Papers
+- "Mathematical Biology" by J.D. Murray - Standard reference for mathematical ecology
+- "A Primer of Ecology" by Nicholas J. Gotelli - Accessible introduction to population dynamics
+- Original papers by Lotka (1925) and Volterra (1926) on population dynamics
+
 ---
 
-Inspired by [Veritasium: The Scientific Challenge of One Predator, One Prey](https://www.youtube.com/watch?v=E3xT_F3E8xw)
+**Created by [AffanMhz](https://github.com/AffanMhz)** | [View on GitHub](https://github.com/AffanMhz/Predator_prey_simulation)
