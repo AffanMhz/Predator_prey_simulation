@@ -5,7 +5,7 @@ You can tune parameters, watch populations evolve, and see how statistical and a
 
 **Inspiration**: This project was inspired by ideas in the Veritasium video "The Scientific Challenge of One Predator, One Prey," which discusses how mathematics and random interactions shape ecosystems.
 
-### 🚀 [**Click Here to Try the Live Demo**](https://affanmhz.github.io/Predator_prey_simulation/)
+### [**Click Here to Try the Live Demo**](https://affanmhz.github.io/Predator_prey_simulation/)
 
 
 ## Usage
