@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>About - Predator-Prey Simulator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="main-header">
+  <h1 class="main-title">About This Project</h1>
+  <p class="subtitle">Understanding predator-prey dynamics through interactive simulation</p>
+  <nav class="nav-links">
+    <a href="index.html">Simulator</a>
+    <a href="resources.html">Resources</a>
+    <a href="about.html" class="active">About</a>
+  </nav>
+</header>
+
+<div class="content-page">
+  <section class="about-section">
+    <h2>🎯 Project Overview</h2>
+    <p class="intro-text">
+      This is an interactive web-based simulator designed to help visualize predator-prey mathematical dynamics 
+      using a grid-based simulation coupled with Lotka-Volterra equations. The project bridges the gap between 
+      theoretical mathematical models and observable ecosystem behaviors.
+    </p>
+  </section>
+
+  <section class="about-section">
+    <h2>💡 Inspiration</h2>
+    <p>
+      This project was inspired by the <strong>Veritasium video "The Scientific Challenge of One Predator, One Prey"</strong>, 
+      which beautifully discusses how mathematics and random interactions shape ecosystems. The video sparked 
+      curiosity about how simple rules can create complex emergent behaviors in ecological systems.
+    </p>
+    <blockquote class="inspiration-quote">
+      "Can we predict the future of an ecosystem using mathematics? The answer reveals both the power 
+      and limitations of mathematical modeling in ecology."
+    </blockquote>
+  </section>
+
+  <section class="about-section">
+    <h2>✨ Features</h2>
+    <div class="features-grid">
+      <div class="feature-box">
+        <h3>🎲 Interactive Grid Simulation</h3>
+        <p>Watch grass, rabbits (prey), and foxes (predator) interact in real-time on a spatial grid with stochastic rules.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📊 Time-Series Visualization</h3>
+        <p>Track population changes over time with clear, color-coded graphs showing oscillating dynamics.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🔄 Phase-Space Analysis</h3>
+        <p>Visualize the relationship between predator and prey populations in phase space, revealing limit cycles.</p>
+      </div>
+      <div class="feature-box">
+        <h3>🧮 Lotka-Volterra Modeling</h3>
+        <p>Compare grid simulation to continuous mathematical models with automated parameter estimation.</p>
+      </div>
+      <div class="feature-box">
+        <h3>⚙️ Adjustable Parameters</h3>
+        <p>Fine-tune reproduction rates, starvation times, grass growth, and simulation speed to explore different scenarios.</p>
+      </div>
+      <div class="feature-box">
+        <h3>📈 Data Export</h3>
+        <p>Export population history as CSV for further analysis in spreadsheets or statistical software.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <h2>🔬 The Science Behind It</h2>
+    <div class="science-content">
+      <h3>Lotka-Volterra Equations</h3>
+      <p>
+        The mathematical foundation of this simulator comes from the Lotka-Volterra equations, 
+        developed independently by Alfred Lotka (1925) and Vito Volterra (1926). These equations 
+        describe the population dynamics of two interacting species:
+      </p>
+      <div class="equation-box">
+        <p><strong>Prey equation:</strong> dR/dt = αR - βRF</p>
+        <p><strong>Predator equation:</strong> dF/dt = δRF - γF</p>
+      </div>
+      <ul class="param-list">
+        <li><strong>α</strong> - Prey growth rate (reproduction without predators)</li>
+        <li><strong>β</strong> - Predation rate (interaction coefficient)</li>
+        <li><strong>γ</strong> - Predator mortality rate (death without prey)</li>
+        <li><strong>δ</strong> - Predator reproduction efficiency from eating prey</li>
+      </ul>
+
+      <h3>Grid-Based vs. Continuous Models</h3>
+      <p>
+        This simulator implements a <strong>discrete grid-based model</strong> where individuals move, 
+        eat, reproduce, and die according to probabilistic rules. This approach captures spatial effects 
+        and stochastic behavior that continuous differential equations cannot represent.
+      </p>
+      <p>
+        The comparison between the grid simulation and the Lotka-Volterra equations reveals when 
+        continuous approximations work well and when spatial and stochastic effects dominate.
+      </p>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <h2>🎓 Educational Use</h2>
+    <p>
+      This simulator is designed for students, educators, and anyone curious about mathematical ecology. 
+      It demonstrates:
+    </p>
+    <ul class="educational-list">
+      <li>How simple rules create complex emergent behaviors</li>
+      <li>The cyclic nature of predator-prey relationships</li>
+      <li>The role of parameters in ecosystem stability</li>
+      <li>Connections between discrete agent-based models and continuous equations</li>
+      <li>Phase space analysis and trajectory visualization</li>
+      <li>Parameter estimation from observed data</li>
+    </ul>
+  </section>
+
+  <section class="about-section">
+    <h2>🛠️ Technical Implementation</h2>
+    <div class="tech-stack">
+      <div class="tech-item">
+        <h4>HTML5 Canvas</h4>
+        <p>Grid rendering and graph visualization using native canvas API for performance.</p>
+      </div>
+      <div class="tech-item">
+        <h4>Vanilla JavaScript</h4>
+        <p>Pure JavaScript implementation with no external dependencies - runs entirely in the browser.</p>
+      </div>
+      <div class="tech-item">
+        <h4>Numerical Integration</h4>
+        <p>4th-order Runge-Kutta method for solving differential equations with high accuracy.</p>
+      </div>
+      <div class="tech-item">
+        <h4>Statistical Methods</h4>
+        <p>Linear regression and grid search optimization for parameter estimation from simulation data.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <h2>👨‍💻 About the Developer</h2>
+    <p>
+      Created by <strong>AffanMhz</strong> - a developer passionate about making complex mathematical 
+      concepts accessible through interactive visualizations. This project combines interests in 
+      mathematics, ecology, computer science, and education.
+    </p>
+    <div class="contact-links">
+      <a href="https://github.com/AffanMhz" target="_blank" class="contact-btn">GitHub Profile</a>
+      <a href="https://github.com/AffanMhz/Predator_prey_simulation" target="_blank" class="contact-btn">Project Repository</a>
+    </div>
+  </section>
+
+  <section class="about-section">
+    <h2>📝 How to Use</h2>
+    <ol class="usage-steps">
+      <li>Open the <a href="index.html">simulator page</a></li>
+      <li>Adjust parameters using the sliders in the control panel</li>
+      <li>Click <strong>"Start / Pause"</strong> to run or pause the simulation</li>
+      <li>Observe the spatial grid, time series, and phase space visualizations</li>
+      <li>Click <strong>"Reset"</strong> to reinitialize with new random conditions</li>
+      <li>Use <strong>"Compute equilibrium & Jacobian"</strong> for theoretical analysis</li>
+      <li>Try <strong>"Estimate LV Parameters"</strong> to fit equations to simulation data</li>
+      <li>Click <strong>"Export CSV"</strong> to save population history for external analysis</li>
+    </ol>
+  </section>
+
+  <section class="about-section">
+    <h2>🌟 Future Enhancements</h2>
+    <ul class="future-list">
+      <li>Multiple species interactions (food chains and webs)</li>
+      <li>Environmental carrying capacity effects</li>
+      <li>Migration and spatial heterogeneity</li>
+      <li>Disease dynamics and epidemic modeling</li>
+      <li>Competition between similar species</li>
+      <li>Real-world parameter presets based on actual ecosystems</li>
+    </ul>
+  </section>
+
+  <section class="about-section cta-section">
+    <h2>🚀 Get Started</h2>
+    <p class="cta-text">Ready to explore predator-prey dynamics? Try the simulator now!</p>
+    <a href="index.html" class="cta-button">Launch Simulator</a>
+  </section>
+
+</div>
+
+<footer>
+  <div class="footer-content">
+    <div>
+      <strong>Predator-Prey Simulator</strong> — A mathematical ecology visualization tool
+    </div>
+    <div class="footer-links">
+      <a href="https://github.com/AffanMhz" target="_blank" rel="noopener">Created by AffanMhz</a>
+      <span>•</span>
+      <a href="https://github.com/AffanMhz/Predator_prey_simulation" target="_blank" rel="noopener">View on GitHub</a>
+      <span>•</span>
+      <a href="LICENSE" target="_blank">License</a>
+    </div>
+  </div>
+</footer>
+</body>
+</html>
